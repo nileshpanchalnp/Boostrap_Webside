@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunger Games</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqwhJ05BIphOBrow9WBv9WLiOWkkU4M8GqxUGRSmSQ4X9ssZlQPlabSzlw99LmI-F9Ec&usqp=CAU">
+  <link rel="stylesheet" href="./cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min - Copy.css">
+  <link href="https://fonts.googleapis.com/css2?family=Damion&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav
+    class="nav d-flex justify-content-evenly container-fluid align-items-center Noto bg-dark fixed-top  text-white w-100"
+    style="height: 60px;">
+    <ul class="nav">
+      <li class="nav-item pt-1 Damion fs-2">
+        <p>Hunger Games</p>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center fs-6 navhover">
+      <li class="nav-item ">
+        <a class="nav-link active " aria-current="page" href="#home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#offer">OFFER</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#menu">MENU</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="#about">ABOUT</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="#booktable">BOOK TABLE</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-end ">
+      <li class="nav-item ">
+        <a class="nav-link active " aria-current="page" href="#"><i
+            class="fa-solid fa-user border p-2 rounded-circle navhover1" "></i></a>
+      </li>
+      <li class=" nav-item">
+            <a class="nav-link " href="#"><i
+                class="fa-solid fa-cart-shopping border p-2 rounded-circle navhover1"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><i
+            class="fa-solid fa-magnifying-glass border p-2 rounded-circle navhover1"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pt-1"><button type="button"
+            class="btn btn-outline-warning ps-4 pe-4 rounded-pill text-white">Order Online</button>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- hero -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner  ">
+      <!-- burger -->
+      <div class="carousel-item active d-flex align-items-center" id="home">
+        <img src="./img/hero-bg-1.jpg" class="d-block w-100" alt="..." height="730px">
+        <p class="text-white position-absolute Damion display-3 " style="margin-bottom: 370px; padding-left: 170px;">
+          Fast
+          Food Restaurant</p>
+        <p class="text-white position-absolute Noto fs-6 " style="margin-bottom: 200px; padding-left: 170px;">Lorem
+          ipsum dolor sit, amet consectetur adipisicing
+          elit. Molestias odio <br> tempora eaque, architecto alias, blanditiis non impedit adipisci consectetur
+          accusamus<br> incidunt eligendi at mollitia! Et sed sint quod quasi soluta accusamus debitis sequi </p>
+        <button type="button"
+          class="btn btn-outline-warning text-white position-absolute Noto fs-6  ps-4 pe-4 rounded-pill "
+          style="margin-left: 170px;">Order Now</button>
+      </div>
+      <!-- sedwich -->
+      <div class="carousel-item sandwichhero">
+        <!-- <img src="./img/sandwich-hero-" class="d-block w-100" alt="..." height="730px"> -->
+        <p class="text-white Damion display-3 ">
+          Fast
+          Food Restaurant</p>
+        <p class="text-white  Noto fs-6 ">Lorem
+          ipsum dolor sit, amet consectetur adipisicing
+          elit. Molestias odio <br> tempora eaque, architecto alias, blanditiis non impedit adipisci consectetur
+          accusamus<br> incidunt eligendi at mollitia! Et sed sint quod quasi soluta accusamus debitis sequi </p>
+        <button type="button" class="btn btn-outline-warning text-white  Noto fs-6 mt-4 ps-4 pe-4 rounded-pill ">Order
+          Now</button>
+      </div>
+      <!-- cocktail -->
+      <div class="carousel-item cocktailhero">
+        <!-- <img src="./img/cocktail-hero-1-1-1.jpg" class="d-block w-100" alt="..." height="730px"> -->
+        <p class="text-white Damion display-3 ">
+          Fast
+          Food Restaurant</p>
+        <p class="text-white  Noto fs-6 ">Lorem
+          ipsum dolor sit, amet consectetur adipisicing
+          elit. Molestias odio <br> tempora eaque, architecto alias, blanditiis non impedit adipisci consectetur
+          accusamus<br> incidunt eligendi at mollitia! Et sed sint quod quasi soluta accusamus debitis sequi </p>
+        <button type="button" class="btn btn-outline-warning text-white  Noto fs-6 mt-4 ps-4 pe-4 rounded-pill ">Order
+          Now</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br><br><br><br>
+  <!-- back to top button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
+  <!-- offer -->
+  <div class="container d-flex flex-row gap-5" id="offer">
+    <div class="bgoffer bg-dark w-50 d-flex flex-collum gap-5 align-items-center ps-5 text-white "
+      style="height: 250px;">
+      <img src="./img/offer-burger.jpg" alt="" height="190px" width="220px"
+        class="border border-5 border-warning rounded-circle">
+      <div class="thursday">
+        <p class=" Damion fs-2">Tasty Thursdays</p>
+        <p class="Damion display-3">20% Off</p>
+        <button type="button" class="btn btn-outline-warning text-white  Noto fs-6  ps-4 pe-4 rounded-pill ">Order
+          Now <i class="fa-solid fa-cart-shopping" style="color: #f7f7f7;"></i>
+        </button>
+      </div>
+    </div>
+    <!-- offer pizza -->
+    <div class="bgoffer bg-dark w-50 d-flex flex-collum gap-5 align-items-center ps-5 text-white "
+      style="height: 250px;">
+      <img src="./img/pizza-offer-.jpg" alt="" height="190px" width="220px"
+        class="border border-5 border-warning rounded-circle ">
+      <div class="thursday">
+        <p class=" Damion fs-2 "> Pizza Days</p>
+        <p class="Damion display-3">15% Off</p>
+        <button type="button" class="btn btn-outline-warning text-white  Noto fs-6  ps-4 pe-4  rounded-pill ">Order
+          Now <i class="fa-solid fa-cart-shopping" style="color: #f7f7f7;"></i>
+        </button>
+      </div>
+    </div>
+  </div><br><br><br><br>
+  <!-- our manu -->
+  <p class="text-center Damion display-2" id="menu">Our Menu</p>
+  <div class="d-flex gap-3 justify-content-center">
+    <button type="button" class="btn btn-warning text-dark fs-5 ps-4 pe-4 rounded-pill">All</button>
+    <button type="button" class="btn btn-outline-warning text-dark fs-5 ps-4 pe-4 rounded-pill">Burger</button>
+    <button type="button" class="btn btn-outline-warning text-dark fs-5 ps-4 pe-4 rounded-pill">Pizza</button>
+    <button type="button" class="btn btn-outline-warning text-dark fs-5 ps-4 pe-4 rounded-pill">Pasta</button>
+    <button type="button" class="btn btn-outline-warning text-dark fs-5 ps-4 pe-4 rounded-pill">Fries</button>
+  </div><br><br><br>
+  <!-- menu card 1-->
+  <div class="cardmenu container d-flex flex-row justify-content-evenly gap-5">
+    <div>
+      <div class="card1 menumenu d-flex  align-items-center justify-content-center menuscal">
+        <img src="./img/menu-pizza-1" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Pizza</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$20 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <!-- card-2 -->
+    <div class="card2">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-bg-2.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Burger</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$25 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <div class="card-3">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-pizza-3.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Pizza</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$15 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+  </div><br>
+  <!-- menu2  -->
+  <div class="cardmenu container d-flex flex-row justify-content-evenly gap-5">
+    <div>
+      <div class="card1 menumenu d-flex  align-items-center justify-content-center menuscal">
+        <img src="./img/menu-pasta-4.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Pasta</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$25 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <!-- card-2 -->
+    <div class="card2">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-fries-5.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">French Fries</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$15 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <div class="card-3">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-pizza-6.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Pizza</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$20 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+  </div><br>
+  <!-- card menu 3 -->
+  <div class="cardmenu container d-flex flex-row justify-content-evenly gap-5">
+    <div>
+      <div class="card1 menumenu d-flex  align-items-center justify-content-center menuscal">
+        <img src="./img/menu-bg-7.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Burger</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$25 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <!-- card-2 -->
+    <div class="card2">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-bg-8.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Tasty Burger</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$20 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+    <div class="card-3">
+      <div class="card1 menumenu d-flex align-items-center justify-content-center menuscal">
+        <img src="./img/menu-pasta-9.png" alt="" height="150px" width="150px">
+      </div>
+      <div class="menutxt">
+        <h4 class="text-white ps-4 pt-4">Delicious Pasta</h4>
+        <p class="text-white ps-4">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+          voluptatem repellendus sed eaque</p>
+        <p class="text-white ps-4 pt-2 fs-5">$30 <i
+            class="fa-solid fa-cart-shopping fs-5 border border-3 border-warning rounded-circle p-2 sopihover"
+            style="color: #ffc21a; margin-left: 180px;"></i> </p>
+      </div>
+    </div>
+  </div><br><br>
+  <center>
+    <button type="button" class="btn btn-warning text-dark fs-5 ps-5 pe-5 rounded-pill">View More</button>
+  </center><br><br><br><br>
+  <!-- bg info -->
+  <div class="container-fluid bg-dark h-100 w-100 d-flex justify-content-center gap-5" id="about">
+    <div>
+      <img src="./img/about-img-bg.png" class="pt-5 pb-5" alt="" height="680px">
+    </div>
+    <div class="d-flex flex-collum align-items-center">
+      <div>
+        <p class="display-3 Damion text-white">We Are Feane</p>
+        <p class="Noto text-white">There are many variations of passages of Lorem Ipsum available, but the <br> majority
+          have suffered alteration in some form, by injected humour, or<br> randomised words which don't look even
+          slightly believable. If you are<br> going to use a passage of Lorem Ipsum, you need to be sure there isn't<br>
+          anything embarrassing hidden in the middle of text. All</p>
+        <button type="button" class="btn btn-warning text-dark fs-5 ps-5 pe-5 mt-5 rounded-pill">Read More</button>
+      </div>
+    </div>
+  </div><br><br><br>
+  <!-- form -->
+  <div class=" d-flex container-fluid justify-content-evenly" id="booktable">
+    <div>
+      <form action="" class="">
+        <div class="display-3 ms-5 Damion">Book A Table</div>
+        <div class="mb-3 w-100 ms-5">
+          <label for="exampleInputEmail1" class="form-label "></label>
+          <input type="email" class="form-control border border-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Your Name">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+
+        <div class="mb-3 w-100 ms-5">
+          <label for="exampleInputEmail1" class="form-label "></label>
+          <input type="email" class="form-control border border-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Phone Number">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+
+        <div class="mb-3 w-100 ms-5">
+          <label for="exampleInputEmail1" class="form-label "></label>
+          <input type="email" class="form-control border border-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Your Email">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+
+        <div class="mb-3 w-100 ms-5">
+          <label for="exampleInputEmail1" class="form-label "></label>
+          <input type="number" class="form-control border border-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="How Many Person ?">
+          <div id="number" class="form-text"></div>
+        </div>
+
+        <div class="mb-3 w-100 ms-5">
+          <label for="exampleInputEmail1" class="form-label "></label>
+          <input type="date" class="form-control border border-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="number" class="form-text"></div>
+        </div>
+
+        <button type="button" class="btn btn-warning text-dark fs-5 ps-5 pe-5 mt-4 ms-5 rounded-pill">BOOK NOW</button>
+      </form>
+    </div>
+    <div>
+      <img src="./img/book-table-1.jpg" alt="" class="mt-5 pt-3 ">
+    </div>
+  </div>
+  <br><br><br>
+  <!-- customer say -->
+  <p class="text-center Damion display-3">What Says Our Customers</p>
+  <br>
+  <center>
+    <section class="bg-dark">
+      <div class="card-group w-75 gap-5 d-flex justify-content-center">
+        <div class="card mt-5 mb-5">
+          <img
+            src="https://indianmemetemplates.com/wp-content/uploads/amit-shah-sitting-on-sofa.jpg"
+            class="card-img-top" alt="..." height="300px">
+          <div class="card-body border border-2 ">
+            <h5 class="card-title">Amit Joshi</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: #0d0d0d;"></i>
+              </small></p>
+          </div>
+        </div>
+        <div class="card  mt-5 mb-5">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7ZyApJmFWF5XgRfDw_tIC7pj4otojCDdtG3WrA7ZskmKqDAqg"
+            class="card-img-top" alt="..." height="300px">
+          <div class="card-body border border-2">
+            <h5 class="card-title">Narendra Patil</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-body-secondary"> <i class="fa-solid fa-star"
+                  style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: #0d0d0d;"></i></small></p>
+          </div>
+        </div>
+        <div class="card mt-5 mb-5">
+          <img
+            src="https://governancenow.com/temp/yogi_adityanath11.jpg"
+            class="card-img-top" alt="..." height="300px">
+          <div class="card-body border border-2">
+            <h5 class="card-title">Yogi Gathvi</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content action.</p>
+            <p class="card-text"><small class="text-body-secondary"> <i class="fa-solid fa-star"
+                  style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i></small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+  </center>
+    <!-- footer -->
+    <footer>
+      <div class="footer bg-dark d-flex justify-content-evenly ">
+        <div class="footer1 m-5">
+          <p class="Damion fs-2 ms-5">Contact Us</p>
+          <p class="Nato fs-4 ms-5"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Location</p>
+          <p class="Nato fs-5"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Call +01 1234567890</p>
+          <p class="Nato fs-5 ms-3"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> demo@gmail.com</p>
+        </div>
+        <div class="footer1 m-5">
+          <p class="Damion fs-1 ms-5 ps-5">Feane</p>
+          <p class="Nato">Necessary, making this the first true generator <br>on the Internet. It uses a dictionary of over 200 <br> Latin words, combined with</p>
+          <div class=" d-flex flex-row gap-3 "   id="facescal">
+            <p><i class="fa-brands fa-facebook fs-2 border border-2 rounded-circle rotet p-2" ></i></p>
+            <p><i class="fa-brands fa-telegram fs-2 border border-2 rounded-circle p-2 rotet" ></i></p>
+            <p><i class="fa-brands fa-instagram fs-2 border border-2 rounded-circle p-2 rotet" ></i></p>
+            <p><i class="fa-brands fa-linkedin fs-2 border border-2 rounded-circle p-2 rotet" ></i></p>
+            <p><i class="fa-brands fa-pinterest fs-2 border border-2 rounded-circle p-2 rotet" ></i></p>
+          </div>
+        </div>
+        <div class="footer1 m-5">
+          <p class="Damion fs-2">Opening Hours</p>
+          <p class="Nato ms-5 fs-4">Everyday</p>
+          <p class="Nato ms-3 fs-5">10.00 Am -10.00 Pm</p>
+          <p class="Nato"> </p>
+        </div>
+      </div>
+    </footer>
+    <p class="container-fluid text-white fs-5 bg-dark text-center p-5">| This Website is made <i class="fa-solid fa-heart" style="color: #ffffff;"></i> by Nilesh Panchal <i class="fa-regular fa-face-smile" style="color: #ffffff;"></i> |</p>
+ <!-- jQuery -->
+  <script src="./cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min - Copy.js"></script>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+</html>

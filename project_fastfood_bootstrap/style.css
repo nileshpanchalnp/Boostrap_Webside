@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Noto{
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+.Damion{
+    font-family: 'Damion', cursive
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 40px 40px 40px 40px;
+  }
+  #myBtn:hover {
+    background-color: rgb(112, 110, 107);
+  }
+  .navhover li a{
+    color: white;
+  }
+.navhover li a:hover{
+    color: rgb(245, 207, 136);
+}
+.navhover1{
+    color: rgb(255, 255, 255);
+}
+.navhover1:hover{
+    color: rgb(255, 166, 0);
+    background-color: white;
+}
+.cocktailhero{
+    background-image: url('./img/cocktail-hero-1-1-1.jpg');
+    height: 730px;
+    width: 100%;
+    background-size: contain;
+    padding-top: 140px;
+    padding-left: 170px
+}
+.sandwichhero{
+    background-image: url('./img/sandwich-hero-');
+    height: 730px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-left: 170px
+}
+.bgoffer img:hover{
+    transform: scale(0.9);
+}
+.bgoffer img{
+    transition: all 0.2s linear;
+}
+.menumenu{
+    height: 230px;
+    width: 350px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 70px 0px 0px 0px;
+}
+.menutxt{
+    height: 210px;
+    width: 350px;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0px 0px 70px 0px;
+}
+.menuscal img:hover{
+    transform: scale(0.9);
+}
+.menuscal img{
+    transition: all 0.2s linear;
+}
+.sopihover:hover{
+    background-color: white;
+}
+.footer{
+    color: white;
+}
+#facescal p i:hover {
+    transform: rotate(360deg);
+  }
+  #facescal p i{
+    transition: all 0.6s linear;
+  }
+  .rotet{
+      color: white;
+  }
+  .rotet:hover{
+      background-color: white;
+      color: orange;
+  }
+  
